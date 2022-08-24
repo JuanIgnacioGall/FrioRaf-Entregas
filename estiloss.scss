@@ -261,7 +261,7 @@ body {
 
 
 
-    /* ESTILOS EMPRESA */
+
 .empresa1 {
     color: steelblue;
     font-size: 20px;
@@ -305,7 +305,7 @@ body {
     text-align: center;
 }
 
-/* ESTILOS PRODUCTOS */
+
 
 .icon {
     width: 350px;
@@ -327,7 +327,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* ESTILOS POSTVENTAS */
 
 .servicio {
     font-family: 'Roboto', sans-serif;
@@ -391,7 +390,7 @@ body {
     text-align: right;
 }
 
-/* CARGA TU CV */
+
 
 .menucarga {
     font-size: 24px;
@@ -416,8 +415,6 @@ body {
 
 }
 
-/* NOSOTROS */
-
 .titulo1n {
     font-weight: 400;
     color: steelblue;
@@ -434,7 +431,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* CONTACTO */
+
 
 .contacto1 {
     font-weight: 400;
@@ -502,3 +499,14 @@ body {
     }
 }
 
+$fondo: white;
+.ps {
+    font-size: 12px;
+
+    @if $fondo == white {
+        color: black
+    } 
+    @else {
+        color: whitesmoke
+    }
+}

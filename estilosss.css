@@ -1,8 +1,7 @@
 body {
   background-color: whitesmoke;
   padding: 0;
-  margin: 0;
-  }
+  margin: 0; }
   body mapa {
     color: dodgerblue;
     font-size: 16px;
@@ -34,7 +33,9 @@ body {
     color: steelblue; }
   body .imag {
     padding: 8px;
-    margin-left: 50px; }
+    margin-left: 50px;
+    display: grid;
+    grid-row: 100%; }
   body .seccion1 {
     background-image: url(http://frioraf.com/wp-content/uploads/2020/07/banner1920x700_4.jpg);
     background-size: cover;
@@ -309,13 +310,37 @@ body {
     justify-content: center;
     margin-bottom: 150px; }
 
-  @media (min-width: 900px) {
-    body .seccion1 {
-      display: flex;
-      justify-content: center; } }
-  @media (min-width: 480px) {
-    body .seccion1 {
-      display: flex;
-      justify-content: center;
-      
-    } }
+@media (min-width: 900px) {
+  .seccion1 {
+    display: flex;
+    justify-content: center; } }
+
+@media (min-width: 480px) {
+  body {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "header header header" "main main main" "mapa1 mapa1 mapa1" "footer footer footer"; }
+  .seccion1 {
+    display: flex;
+    justify-content: center; } }
+
+.btn-default {
+  background-color: blue; }
+
+.btn-secondary {
+  background-color: grey; }
+
+.btn-danger {
+  background-color: brown; }
+
+.btn-light {
+  background-color: white; }
+
+.lista2 {
+  color: dodgerblue; }
+
+.lista2 {
+  color: dodgerblue; }
+
+.lista2 {
+  color: dodgerblue; }
