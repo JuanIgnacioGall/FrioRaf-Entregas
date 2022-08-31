@@ -324,23 +324,6 @@ body {
     display: flex;
     justify-content: center; } }
 
-.btn-default {
-  background-color: blue; }
-
-.btn-secondary {
-  background-color: grey; }
-
-.btn-danger {
-  background-color: brown; }
-
-.btn-light {
-  background-color: white; }
-
-.lista2 {
-  color: dodgerblue; }
-
-.lista2 {
-  color: dodgerblue; }
-
-.lista2 {
-  color: dodgerblue; }
+.ps {
+  font-size: 12px;
+  color: black; }
