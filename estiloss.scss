@@ -6,7 +6,7 @@ body {
     mapa {
         color: dodgerblue;
         font-size: 16px;
-        font-family: 'Roboto', sans-serif; 
+        font-family: 'Roboto', sans-serif;
     }
 
     .mapa1 {
@@ -15,20 +15,22 @@ body {
         align-items: center;
         margin-top: 30px;
         margin-bottom: 40px;
-        width: 100%;
-    
+        width: 99%;
+
     }
+
     .menu {
         background-color: whitesmoke;
-        background-image: linear-gradient(gray, white);
+        
+
     }
-    
+
     .menu_div {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
+
     .menu1 {
         width: 100%;
         list-style: none;
@@ -37,60 +39,64 @@ body {
         justify-content: center;
         font-size: 17px;
     }
-    
+
     .menu1 a {
         font-weight: 800px;
-    
+
+
     }
-    
+
     .menu1:hover {
         color: steelblue;
     }
+
     .imag {
         padding: 8px;
-        margin-left: 50px;
+        margin-left: 3%;
         display: grid;
         grid-row: 100%;
-    
+        width: 62%;
+
     }
-    
+
     .seccion1 {
         background-image: url(http://frioraf.com/wp-content/uploads/2020/07/banner1920x700_4.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         border: 1px solid white;
         display: flex;
-        justify-content: center; 
+        justify-content: center;
+        width: 100%;
     }
-    
+
     .seccion1_1 {
         margin-top: 180px;
         margin-bottom: 180px;
-        
+
     }
-    
-    
+
+
     .seccion2 {
-        padding: 10px;
+        padding: 0px;
         margin-left: 0;
     }
-    
+
     .seccion3 {
         font-family: 'Roboto', sans-serif;
-        color:grey;
-    
+        color: grey;
+
     }
-    
+
     .titulo2 {
         text-align: center;
     }
-    
+
     .fotos {
         text-align: center;
         width: 99%;
-        
+
     }
-    
+
     h1 {
         color: rgb(255, 255, 255);
         text-align: center;
@@ -98,11 +104,11 @@ body {
         font-family: 'Roboto', sans-serif;
         font-weight: 600;
         text-shadow: 0 0 2px gray;
-        
-    
+
+
     }
-    
-    
+
+
     h2 {
         color: rgb(255, 255, 255);
         text-align: center;
@@ -111,26 +117,26 @@ body {
         font-weight: 900;
         text-decoration: solid;
         text-shadow: 0 0 2px gray;
-        
+
     }
-    
-    
+
+
     h4 {
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
         color: steelblue;
         text-decoration: none;
         font-weight: 400;
-    
+
     }
-    
+
     .cc {
         background-color: rgb(234, 110, 39);
         color: azure;
         padding: 5px;
         text-decoration: none;
     }
-    
+
     a {
         text-decoration: none;
         margin-right: 15px;
@@ -143,11 +149,13 @@ body {
         display: flex;
         justify-content: space-evenly;
         column-gap: 30px;
-        row-gap: 90px;
+        row-gap: 70px;
         font-size: 15px;
         width: 100%;
+        margin-top: 25px;
+
     }
-    
+
     .p1 {
         text-align: center;
         color: #333333;
@@ -155,12 +163,12 @@ body {
         font-weight: 500;
         border: 1px solid white;
         flex: 1;
-        padding: 20px;
+        padding: 18px;
         background-color: white;
         margin-left: 20px;
-    
+
     }
-    
+
     .p2 {
         text-align: center;
         color: #333333;
@@ -168,10 +176,10 @@ body {
         font-weight: 500;
         border: 1px solid white;
         flex: 1;
-        padding: 20px;
+        padding: 18px;
         background-color: white;
     }
-    
+
     .p3 {
         text-align: center;
         color: #333333;
@@ -179,11 +187,11 @@ body {
         font-weight: 500;
         border: 1px solid white;
         flex: 1;
-        padding: 20px;
+        padding: 18px;
         background-color: white;
         margin-right: 20px;
     }
-    
+
     .mapa1 {
         display: flex;
         justify-content: center;
@@ -191,59 +199,59 @@ body {
         margin-top: 30px;
         margin-bottom: 40px;
         width: 100%;
-    
+
     }
 
     .contact {
         color: dodgerblue;
         font-size: 16px;
         font-family: 'Roboto', sans-serif;
-    
-    
+
+
     }
-    
+
     .lista1 {
         list-style: none;
-    
+
     }
-    
+
     .colum1 {
         color: gray;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: 100;
-    
+
     }
-    
+
     .lista2 {
         list-style: none;
         margin-right: 50px;
-    
+
     }
-    
+
     .colum2 {
         color: gray;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: 100;
     }
-    
+
     .logofr {
         width: 100%;
-        
+
     }
-    
+
     .footer_index {
         display: flex;
-    
+
     }
-    
+
     .hijo {
         display: flex;
         flex: 1;
         justify-content: flex-end;
     }
-    
+
     .mapasitio {
         font-size: 18px;
         font-family: 'Roboto', sans-serif;
@@ -251,7 +259,7 @@ body {
         font-weight: 500;
         color: rgb(70, 148, 226);
     }
-    
+
     .contactanos {
         font-size: 18px;
         font-family: 'Roboto', sans-serif;
@@ -262,221 +270,263 @@ body {
 
 
 
-.empresa1 {
-    color: steelblue;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    .empresa1 {
+        color: steelblue;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .empresa2 {
+        color: steelblue;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .p1e {
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    .p2e {
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin-bottom: 300px;
+
+    }
+
+    .plantaindus {
+        margin-top: 100px;
+
+
+    }
+
+    .dondeestamos {
+        margin-top: 50px;
+    }
+
+    .imagenplanta {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+
+
+    .icon {
+        width: 350px;
+        text-align: center;
+    }
+
+    .prod {
+        color: steelblue;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+
+    .prod2 {
+        text-align: center;
+        font-weight: 300;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .prod3 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .prod4 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .servicio {
+        font-family: 'Roboto', sans-serif;
+        color: steelblue;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .servicio2 {
+        font-family: 'Roboto', sans-serif;
+        color: steelblue;
+        text-align: left;
+        font-size: 24px;
+        font-weight: 300;
+        margin-left: 0px;
+        margin-top: 50px;
+        text-align: center;
+
+    }
+
+    .listaaa {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .servlist {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 25px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+
+    }
+
+    .postimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .post {
+        width: 45%;
+        margin-left: 29%;
+        margin-bottom: 80px;
+        margin-top: 50px;
+
+
+    }
+
+    .logofr {
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .ml {
+        margin-left: 500px;
+        position: relative;
+    }
+
+    .cl {
+        margin-left: 750px;
+        position: absolute;
+        top: 900px;
+    }
+
+
+
+    .list2 {
+        text-align: right;
+    }
+
+
+
+    .menucarga {
+        font-size: 24px;
+        color: steelblue;
+        font-weight: 400;
+    }
+
+    .menudatos {
+        font-size: 28px;
+        color: steelblue;
+        font-weight: 400;
+    }
+
+    .planilla {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 150px;
+        margin-bottom: 250px;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .titulo1n {
+        font-weight: 400;
+        color: steelblue;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+
+    .titulosn {
+        font-size: 14px;
+        margin-top: 70px;
+        margin-bottom: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+
+    .contacto1 {
+        font-weight: 400;
+        color: steelblue;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+
+    .contacto2 {
+        font-weight: 400;
+        color: steelblue;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
+
+    .contacto3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+
+    }
+
+    .casacentral {
+        font-size: 20px;
+        color: cornflowerblue;
+        flex: 1;
+
+    }
+
+    .casacen {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .casacentral2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .mapacontact {
+        display: grid;
+        justify-content: center;
+        margin-bottom: 150px;
+
+    }
+
 }
 
-.empresa2 {
-    color: steelblue;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-}
+@media (min-width: 992px) {
 
-.p1e {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-.p2e {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin-bottom: 300px;
-    
-}
-.plantaindus {
-    margin-top: 100px;
-
-    
-}
-.dondeestamos {
-    margin-top: 50px;
-}
-
-.imagenplanta {
-    width: 50%;
-    margin-left: 300px;
-    margin-right: 150px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-
-
-.icon {
-    width: 350px;
-    text-align: center;
-}
-
-.prod {
-    color: steelblue;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 80px;
-    margin-top: 80px;
-}
-
-.prod2 {
-    text-align: center;
-    font-weight: 300;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-.servicio {
-    font-family: 'Roboto', sans-serif;
-    color: steelblue;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.servicio2 {
-    font-family: 'Roboto', sans-serif;
-    color: steelblue;
-    text-align: left;
-    font-size: 24px;
-    font-weight: 300;
-    margin-left: 30px;
-    margin-top: 50px;
-
-}
-
-.servlist {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    text-align: justify;
-    line-height: 20px;
-    margin-bottom: 300px;
-    margin-top: 50px;
-
-}
-
-.post {
-    width: 400px;
-    position: absolute;
-    left: 600px;
-    top: 230px;
-
-
-}
-
-.logofr {
-    position: relative;
-    bottom: 10px;
-    left: 10px;
-}
-
-.ml {
-    margin-left: 500px;
-    position: relative;
-}
-
-.cl {
-    margin-left: 750px;
-    position: absolute;
-    top: 900px;
-}
-
-
-
-.list2 {
-    text-align: right;
-}
-
-
-
-.menucarga {
-    font-size: 24px;
-    color: steelblue;
-    font-weight: 400;
-}
-
-.menudatos {
-    font-size: 28px;
-    color: steelblue;
-    font-weight: 400;
-}
-.planilla {
-    display: grid;
-    grid-template-columns:minmax(auto, 50%);
-    justify-content: center;
-    margin-left: 150px;
-    margin-bottom: 250px;
-    font-size: 30px;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-.titulo1n {
-    font-weight: 400;
-    color: steelblue;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
-
-.titulosn {
-    font-size: 14px;
-    margin-top: 70px;
-    margin-bottom: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-
-.contacto1 {
-    font-weight: 400;
-    color: steelblue;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
-
-.contacto2 {
-    font-weight: 400;
-    color: steelblue;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-}
-
-.contacto3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    margin-top: 60  px;
-    margin-bottom: 50px;
-    margin-left: 500px;
-}
-
-.casacentral {
-    font-size: 20px;
-    color:cornflowerblue;
-}
-
-.casacen {
-    display: grid;
-    justify-content: center;
-    grid-template-rows:minmax(auto, 55%);
-    grid-template-columns: minmax(auto, 85%);
-}
-
-.mapacontact {
-    display: grid;
-    justify-content:center;
-    margin-bottom: 150px;
-
-}
-
-}
-@media (min-width: 900px){
-   
     .seccion1 {
 
         display: flex;
@@ -486,42 +536,43 @@ body {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 769px) and (max-with: 991px) {
 
     .menu_div {
-  
-      flex-direction: column;
-  
-      align-items: center; }
-  
-    .menu1 {
-  
-      flex-direction: column;
-  
-      align-items: center; }
-  
-    }
 
-    .casacen {
-        
         flex-direction: column;
 
         align-items: center;
     }
 
-@media only screen and (min-width : 480px){
+    .menu1 {
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+}
+
+.casacen {
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+@media only screen and (max-width : 768px) {
 
     body {
 
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "header header header"
-                             "main main main"
-                             "mapa1 mapa1 mapa1"
-                             "footer footer footer";
-               
+            "main main main"
+            "mapa1 mapa1 mapa1"
+            "footer footer footer";
+
     }
-    
 
     .seccion3 {
 
@@ -532,19 +583,123 @@ body {
 
     .imagenplanta {
 
-        align-items:flex-start;
+        align-items: flex-start;
+    }
+
+    .prod3 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .menu_div {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu1 {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu {
+        width: 100%;
+        display: flex;
+
     }
 }
 
+.casacen {
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.fotos1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.fotos2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.plantaindus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagenplanta {
+    flex-direction: initial;
+}
+
+.listimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.servlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.postimg {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.planilla {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 250px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ps {
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+}
+
+.mapa1 {
+    width: 99%;
+}
+
 $fondo: white;
+
 .ps {
     font-size: 12px;
 
-    @if $fondo == white {
+    @if $fondo==white {
         color: black
-    } 
+    }
+
     @else {
         color: whitesmoke
     }
 }
-
